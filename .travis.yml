@@ -2,8 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: 
-    secure: HROQDmyouAfyfZvcOTmmhw
+  api_key:
+    secure: BvwMQ+ZEhkRaPP9XJr3E+IIg/WBal6uyohS8nBt+IAdiv5S7DODvV84F0HwqfSOU+LSxYh73mbDsL2xp4mhQdAMraHrTj6yT5p804w7ju88PApIOqvdfSZWsbyaZV80s4AAlUsbbBekJAHvveCvsWaj4YbQGed4RL+V84HMAo7xF6N4HoIhEP0gSVYW7egR3J4hRKy6jESy1+CvFpGVXlRph4vO2hdLwr3ohyww+ch6M2A6m39CtQniqzE/Ml+2Jgk+rr0vvprvpU0uT8dw0yl/gqJhMDILNg6W/YoEph2Oz1O2kohqdI1a6YP+e890Y/uswnDnf21wQaKv8ZuKK+ROLwKtFCG3covzLXiXCAv7/JdOXiTgZuP7oiINzoFVSu4QFa3c4yWc5oStEpOqlEA7Y0bVA6jCdc4evo50zuOznmrp9eKlKw5XyqAycebAF4Lo1KhlP74U53+ubD+ztexhGzh4yuBnkrfACSrAcZIAOAmZD9pHgiIY/1b929gxizAAdc4T6gal08bDn+U5vHQdcG1zWQPDWCpHrfNyXe8oIzx6bqtgcHQYnZmVvruSQLGCWjZUI16Lz11n1+khjhVBmZ6MoMVIy1UhbHGYSxzo3HDWM66nyFonE7RXWV6yAPnyZBdZz1kRBrAd+Qw1MWEUvlUOqQZ8IQHfi1uAvJbs=
   app: salty-harbor-80266
   on:
     repo: emily-morris/blog-api-challenge
