@@ -9,6 +9,8 @@ const blogPostRouter = require('./blogPostRouter');
 //log http layer
 app.use(morgan('common'));
 
+app.use(express.static('public'));
+
 app.use('/blog-posts', blogPostRouter);
 
 //server object for runServer and closeServer to access
