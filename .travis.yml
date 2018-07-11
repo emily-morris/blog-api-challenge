@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: m1FRQdsf7dvza6ObBDOPlyY5/PmJBa6Kvw9h3pAmhOguMyiD8dLdRP6aiX+ivWUAdn4uN2oFtKR66Y9eWCKWtynW9e7DkNSXCQs3UqWj/udCkPDM9CfWp1alA4Rc7eSxP8tAqYrrycN94o4w6Qc4gF/w9SsXpAISXcIscswlaMSDrXh24nGwKq3tvoiBVyKjSmKCsxhosX91y2VJZD+axn9vRRb/qsiwxnSsJjHN0qTCbtSIsxBS0Iltw1Sn0UEclusLTTHh8PcxU+vEyMF3pvelr1W5vWOCeoACDVQ3lLLOUJ2u4Wc3Ve6PPd4SSkFn2GdAbdcOu9tkl7iOf06FxUsci5/H6/GnFFumjJ+GYk4WJojk3NPwivx/PlP8m7/98jp+UWdLFsxGlRHkmanJyeoauXsC2u9wjzVy08agCTTezbY1l2WGhbB/sW01Z8Ts3DZIJuSsl9cNFGrPIEV921RBoCyogSHj+0Bq7XmO2+ByYCEZISEV+pRmC6RKxCwHjoupVHTN1a6dlLyO9IB3LJvCf689iRYCMg5G9wobLoVJdfxjUyYF5JJrX0eB8HswGCuLy2tPSvCSQtLPPQ/y+jtRotkWvlT9aw28EwmCxPNWgLJv4dsIDhH/SNTdx+8Gf50SstRBkBs77YXyiEQARjzSWi2doHe3LbCCfZILFGI=
+  app: blog-api-challenge
+  on:
+    repo: emily-morris/blog-api-challenge
